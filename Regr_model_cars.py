@@ -20,7 +20,7 @@ def load_feature_importance(file_path):
 final_fi = load_feature_importance("feature_importance.xlsx")  # Replace with your file path
 
 # Sidebar setup
-image_sidebar = Image.open('imgs/pic 1.PNG')  # Replace with your image file
+image_sidebar = Image.open('pic 1.PNG')  # Replace with your image file
 st.sidebar.image(image_sidebar, use_container_width=True)
 st.sidebar.header('Vehicle Features')
 
@@ -54,7 +54,7 @@ def get_user_input():
     return user_data
 
 # Top banner
-image_banner = Image.open('imgs/pic 2.PNG')  # Replace with your image file
+image_banner = Image.open('pic 2.PNG')  # Replace with your image file
 st.image(image_banner, use_container_width=True)
 
 # Centered title
@@ -127,3 +127,4 @@ with right_col:
 #.\\.venv\\Scripts\\activate
 # pip install -r requirements.txt
 # streamlit run Regr_model_cars.py
+
